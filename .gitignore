@@ -1,0 +1,40 @@
+# 環境変数（機密情報）
+.env
+
+# Pythonのキャッシュ
+__pycache__/
+*.py[cod]
+
+# 仮想環境
+venv/
+.venv/
+
+# エディタ設定
+.vscode/
+
+# 依存ライブラリ（容量が非常に大きいため、絶対に追加しない）
+node_modules/
+
+# ビルド成果物（実行時に生成されるため不要）
+dist/
+build/
+.next/
+out/
+
+# 環境変数（APIキーなどの機密情報が含まれるため、絶対に上げない）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# デバッグログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# エディタ・OS設定
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
